@@ -10,8 +10,9 @@
     --verde: #56B78C;
     --cinza-claro: #D9D9D9;
     --cinza-escuro: #959595;
-
+    
     /*fontes*/
+    font-size: 62.5%;
     --fonte-primaria: 'Work Sans', sans-serif;
     --fonte-secundaria: 'Fjalla One', sans-serif;
 }
@@ -26,7 +27,7 @@ body {
 .destaques,
 .eventos__titulo,
 .agenda__titulo {
-    font-size: 20px;
+    font-size: 3.4rem;
     text-transform: uppercase;
     font-family: var(--fonte-secundaria);
 }
@@ -45,9 +46,9 @@ img:hover {
 .menu {
     background-color: black;
     font-family: var(--fonte-secundaria);
-    font-size: 16px;
-    height: 258px;
-    padding: 0 1.5rem;
+    font-size: 1.6rem;
+    height: 25.8rem;
+    padding: 0 2.4rem;
     white-space: nowrap;
 }
 
@@ -55,7 +56,7 @@ img:hover {
     background-image: url("../img/logo-branco-maior.png");
     background-repeat: no-repeat;
     background-position: center;
-    padding: 40px 100px;
+    padding: 4rem 10rem;
     width: 100%;
     cursor: pointer;
 }
@@ -72,11 +73,11 @@ img:hover {
 
 .menu__pesquisar {
     width: 100%;
-    height: 40px;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding-top: 5px;
-    margin-bottom: 10px;
+    height: 4rem;
+    border: .2rem solid white;
+    border-radius: 1rem;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
 }
 
 .menu__input {
@@ -85,23 +86,23 @@ img:hover {
     background-image: url("../img/icone-busca.png");
     background-repeat: no-repeat;
     background-position: right;
-    font-size: 16px;
+    font-size: 1.6rem;
     border: none;
     outline: none;
     width: 98%;
-    line-height: 25px;
-    padding-left: 5px;
+    line-height: 2.5rem;
+    padding-left: .5rem;
 }
 
 .menu__item:nth-child(4)::before {
-    padding-right: 8px;
+    padding-right: .8rem;
     content: url("../img/icone-gps.png");
     cursor: pointer;
     transition: 3.3s;
 }
 
 .menu__item:nth-child(4)::after {
-    padding-left: 8px;
+    padding-left: .8rem;
     content: url("../img/icone-seta.png");
     cursor: pointer;
     transition: 3.3s;
@@ -116,7 +117,7 @@ img:hover {
 /*main*/
 
 .principal {
-    padding: 0 1.5rem;
+    padding: 0 2.4rem;
 }
 
 /*banner*/
@@ -128,11 +129,11 @@ img:hover {
 
 /*categorias*/
 .categorias {
-    margin-top: 1.5rem;
+    margin-top: 2.4rem;
 }
 
 .categorias__titulo {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 .categorias__lista {
@@ -141,13 +142,13 @@ img:hover {
 }
 
 .categorias__item {
-    padding: 1.5rem;
+    padding: 2.4rem;
     text-transform: uppercase;
     cursor: pointer;
     user-select: none;
     transition: 0.5s;
     opacity: 1;
-    min-width: 282px;
+    min-width: 28.2rem;
 }
 
 .categorias__item:hover {
@@ -175,29 +176,29 @@ img:hover {
 }
 
 .destaques {
-    padding: 30px 0 10px;
+    padding: 3rem 0 1rem;
     white-space: nowrap;
 }
 
 .destaques__titulo {
-    margin: 1rem 0;
+    margin: 2.4rem 0;
 }
 
 .destaques__barra {
-    width: 131px;
-    height: 2px;
+    width: 13.1rem;
+    height: .2rem;
     background-color: black;
 }
 
 .categorias__destaques img:last-of-type {
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
 .categorias__imagem {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
     background-image: url("../img/destaques-360.png");
     background-repeat: no-repeat;
-    height: 271px;
+    height: 27.1rem;
     background-size: cover;
     background-position: center;
     opacity: 1;
@@ -211,14 +212,14 @@ img:hover {
 /* Eventos */
 
 .eventos__titulo {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 .eventos__item {
     background-color: var(--cinza-claro);
-    width: 307px;
-    padding-bottom: 1rem;
-    height: 318px;
+    width: 30.7rem;
+    padding-bottom: 1.6rem;
+    height: 31.8rem;
 }
 
 .eventos__item img {
@@ -226,19 +227,19 @@ img:hover {
 }
 
 .eventos__item h3 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .eventos__item h4,
 .eventos__item h5 {
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .eventos__item h3,
 .eventos__item h4,
 .eventos__item h5 {
-    padding-left: 1rem;
+    padding-left: 1.6rem;
 }
 
 .eventos__item button {
@@ -246,10 +247,10 @@ img:hover {
     border: none;
     background-color: black;
     color: white;
-    margin-right: 1rem;
+    margin-right: 1.6rem;
     text-align: center;
-    padding: .5rem 0;
-    width: 80px;
+    padding: .8rem 0;
+    width: 8rem;
     cursor: pointer;
     transition: .5s;
 }
@@ -267,8 +268,8 @@ img:hover {
     border: none;
     background-color: black;
     color: white;
-    padding: .75rem 0;
-    width: 148px;
+    padding: 1.2rem 0;
+    width: 14.8rem;
     cursor: pointer;
     transition: .5s;
 }
@@ -276,8 +277,8 @@ img:hover {
 /*Agenda*/
 
 .agenda__titulo {
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.6rem;
 }
 
 .agenda__item {
@@ -293,27 +294,29 @@ img:hover {
     background-color: var(--cinza-escuro);
     color: white;
     text-transform: uppercase;
-    padding-top: 1rem;
+    padding-top: 1.6rem;
 }
 
 .agenda__informacoes h3 {
-    font-size: 2rem;
+    font-size: 3.2rem;
+    font-family: var(--fonte-secundaria);
+    
 }
 
 .agenda__informacoes h4,
 .agenda__informacoes h5 {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
 }
 
 .agenda__item .agenda__atracao {
     text-align: center;
-    padding: 1rem;
+    padding: 1.6rem;
 }
 
 .agenda__atracao h6 {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin-bottom: 3.6rem;
 }
 
 .agenda__atracao button {
@@ -321,8 +324,8 @@ img:hover {
     border: none;
     background-color: black;
     color: white;
-    padding: .5rem 0;
-    width: 125px;
+    padding: .8rem 0;
+    width: 12.5rem;
     cursor: pointer;
     transition: .5s;
 }
@@ -332,56 +335,56 @@ img:hover {
 .rodape {
     color: var(--cinza-claro);
     background-color: black;
-    margin: 1rem 0;
-    font-size: 14px;
+    margin: 1.6rem 0;
+    font-size: 1.4rem;
     font-family: var(--fonte-primaria);
-    padding: 1rem 1.5rem;
+    padding: 1.6rem 2.5rem;
     line-height: 2;
     white-space: nowrap;
 }
 
 .rodape__lista {
-    width: 135px;
+    width: 13.5rem;
 }
 
 .rodape__titulo {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-family: var(--fonte-secundaria);
 }
 
 .rodape__logo {
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .rodape__logo h4 {
     background-image: url("../img/logo_rodape.png");
     background-repeat: no-repeat;
     background-position: center;
-    height: 60px;
+    height: 6rem;
 }
 
 @media(min-width: 720px) {
 
     /* Header */
     .menu {
-        height: 217px;
+        height: 21.7rem;
     }
 
     .menu__titulo {
         width: auto;
-        padding: 40px 55px;
+        padding: 4rem 5.5rem;
     }
 
     .cabecalho__seu-local::before {
-        padding-right: 8px;
+        padding-right: .8rem;
     }
 
     .cabecalho__seu-local::after {
-        padding-left: 15px;
+        padding-left: 1.5rem;
     }
 
     .menu__pesquisar {
-        width: 312px;
+        width: 31.2rem;
     }
 
     /*main*/
@@ -392,11 +395,11 @@ img:hover {
 
     /* Categorias */
     .categorias__lista {
-        height: 304px;
+        height: 30.4rem;
     }
 
     .destaques__barra {
-        width: 417.96px;
+        width: 41.796rem;
     }
 
     .categorias__imagem {
@@ -406,7 +409,7 @@ img:hover {
     /* Agenda */
 
     .agenda__item {
-        width: 308px;
+        width: 30.8rem;
     }
 
     /* Rodapé */ 
@@ -422,34 +425,34 @@ img:hover {
 
     /* Header */
     .menu {
-        height: 100px;
-        font-size: 20px;
-        padding: 0 7.5rem;
+        height: 10rem;
+        font-size: 2rem;
+        padding: 0 12rem;
     }
 
     .menu__titulo {
         background-image: url("../img/logo-branco-menor.png");
-        padding: 43px 55px;
+        padding: 4.3rem 5.5rem;
     }
 
     .menu__pesquisar {
-        width: 384px;
+        width: 38.4rem;
         margin-bottom: 0;
     }
 
     .menu__input {
-        padding-left: 15px;
+        padding-left: 1.5rem;
     }
 
     /*main*/
 
     .principal {
-        padding: 0 7.5rem;
+        padding: 0 12rem;
     }
 
     /*categorias*/
     .categorias {
-        margin-bottom: 1.5rem;
+        margin-bottom: 2.5rem;
     }
 
     .categorias__titulo {
@@ -461,11 +464,11 @@ img:hover {
     }
 
     .destaques .destaques__barra {
-        width: 416px;
+        width: 41.6rem;
     }
 
     .categorias__imagem {
-        height: 224px;
+        height: 22.4rem;
         margin-bottom: 0;
         background-position-y: bottom;
     }
@@ -473,20 +476,20 @@ img:hover {
     /*Eventos*/
 
     .eventos__item {
-        width: 280px;
+        width: 28rem;
     }
 
     /*Agenda*/
 
     .agenda__item {
-        width: 330px;
+        width: 33rem;
     }
 
     /* Rodapé */
 
     .rodape {
-        padding-left: 7.5rem;
-        padding-right: 7.5rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
     }
 
 }

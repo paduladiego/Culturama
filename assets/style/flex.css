@@ -1,0 +1,140 @@
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 3.3rem;
+}
+
+
+h1 {
+    flex-grow: 1;
+    min-width: calc(100vw - 4.8rem);
+}
+
+/* Categorias / Destaques */
+.categorias {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.categorias,
+.categorias__titulo,
+.destaques__titulo,
+.eventos__titulo,
+.agenda__titulo {
+    font-size: 2rem;
+
+}
+
+.categorias__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+}
+
+.destaques {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.destaques__barra {
+    flex-grow: 1;
+}
+
+/* Eventos */
+.eventos__lista, .agenda__lista {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2.4rem;
+    row-gap: 1.6rem;
+    justify-content: center;
+}
+
+.eventos__item, .agenda__item {
+    flex-grow: 1;
+    max-width: 40rem;
+}
+
+/* Rodapé */
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.rodape__logo{
+    align-self: end;
+}
+@media screen and (min-width: 720px) {
+
+    /* Menu */
+    .menu {
+        column-gap: 10rem;
+
+    }
+
+    h1 {
+        min-width: auto;
+        flex-grow: 0;
+    }
+
+
+    /* Categorias / Destaques */
+
+    .categorias__lista {
+        flex-wrap: wrap;
+        column-gap: 2.5rem;
+        row-gap: 1.6rem;
+        height: 32rem;
+    }
+
+    /* Eventos e Agenda */
+    .eventos__lista, .agenda__lista {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* Menu */
+
+    .menu {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        /* column-gap: 17.5rem; */
+        /* height: 21.7rem; */
+    }
+
+    .menu__item:nth-child(1) {
+        order: 1;
+    }
+
+    .menu__item:nth-child(5) {
+        order: 2;
+    }
+
+    .menu__item:nth-child(2) {
+        order: 3;
+    }
+
+    .menu__item:nth-child(3) {
+        order: 4;
+    }
+
+    .menu__item:nth-child(4) {
+        order: 5;
+    }
+
+    /* Categorias / Destaques */
+    /* .categorias__lista{
+        padding-right: 1.6rem;
+    }
+    .categorias__destaques{
+        padding-left: -1.6rem;
+    } */
+
+}
