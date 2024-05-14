@@ -1,3 +1,7 @@
+<table>
+<tr>
+<td>
+
 # Culturama
 
 ## Estudo de Grid e Flex em CSS
@@ -54,3 +58,68 @@ Se você deseja contribuir com este projeto, siga as instruções abaixo:
 - Crie um novo Pull Request.
 ### Autor
 Este projeto foi criado por <b>PADULA One</b> Você pode entrar em contato comigo em <a href="mailto:the@padula.one">the@padula.one</a>.
+</td>
+
+<td>
+
+# Culturama
+
+## Study of Grid and Flex in CSS
+
+This project was created as part of my study on the concepts of Grid and Flex in CSS. The goal is to practice and demonstrate the use of these features to create responsive and flexible layouts.
+
+## Project Structure
+
+The project contains the following files:
+
+- `index.html`: Main page of the project.
+- `style.css`: CSS file with styles for the project.
+- `assets/`: Folder containing image files and other resources used in the project.
+
+## Key Features Used
+
+### Grid
+
+- Use of the grid system to create layouts more efficiently.
+- Use of properties like `grid-template-columns`, `grid-template-rows`, and `grid-template-areas` to define the layout structure.
+
+### Flexbox
+
+- Use of Flexbox to align and distribute elements flexibly.
+- Use of properties like `display: flex`, `justify-content`, `align-items`, and `flex-wrap` to control the layout of elements.
+
+### Example Usage
+
+Below is an example of how the Grid and Flex features were used in the project:
+
+```css
+/* Example style using Grid */
+.banner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+/* Example style using Flexbox */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+```
+### How to Contribute
+If you wish to contribute to this project, please follow the instructions below:
+
+- Fork the project.
+- Create a branch for your feature git checkout -b feature/new-feature.
+- Commit your changes git commit -am 'Adding new feature'.
+- Push to the branch git push origin feature/new-feature.
+- Create a new Pull Request.
+
+## Author
+This project was created by  <b>PADULA One</b>. You can contact me at <a href="mailto:the@padula.one">the@padula.one</a>.
+
+</td>
+
+</tr>
+</table>
